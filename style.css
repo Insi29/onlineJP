@@ -1,0 +1,104 @@
+ul{
+    list-style-type: none;
+}
+.div1{
+    background-color: rgba(224, 224, 224, 0.493);
+    padding: 0 2rem;
+    height: 0rem;
+    min-height: 10vh;
+    overflow: hidden;
+    transition: height 1s ease-in-out;
+    
+    }
+    .flex_row{
+        display: flex;
+        flex-direction: row;    
+        flex-wrap: wrap;}
+
+
+
+    .div1 .just{
+        justify-content: space-between;
+    }
+    .div1 .brand a{
+            font-size: 1.6rem;
+            padding:1rem 0;
+            display: block;
+            background-image: linear-gradient(to left, violet, indigo, green, blue, yellow, orange, red);
+             -webkit-background-clip: text;
+             -moz-background-clip: text;
+             background-clip: text;
+             color: transparent;
+             font-size: 2.5rem;
+    }
+    .div1 .items{
+        display: flex;
+        margin: 0;
+     
+    }
+    .div1 .items .link{
+        padding: 1.6rem 2rem;
+        font-size: 1.1rem;
+        position: relative;
+        font-family: var(--Abel);
+        font-size: 1.3rem; }
+    .div1 .items .link:hover{
+        background-color: #696d6d;
+    }
+    main .site-title{
+        background: url('icecream.jpg');
+        background-size: cover;
+        height: 45vh;
+        overflow: auto;
+        display: flex;
+        position: relative;
+        justify-content: center;
+    }
+    main .site-title .site-background{
+        padding-top: 10rem;
+        text-align: center;
+        color: white;
+    }
+    main .blog{
+        background-image: url("yogurt.jpg");
+        background-size: cover;
+        position: relative;
+        height: 30vh;
+        display: flex;
+        justify-content: right;
+        
+
+    }
+    main .blog.design{
+        padding-top: 10rem;
+        text-align: center;
+        color: white;}
+
+.icon-bar {
+    width: 100%; /* Full-width */
+    background-color: rgb(207, 205, 75); /* Dark-grey background */
+    overflow: auto; /* Overflow due to float */
+    position: relative;
+  }
+  
+.icon-bar a {
+    float: left; /* Float links side by side */
+    text-align: center; /* Center-align text */
+    width: 25%; /* Equal width (5 icons with 20% width each = 100%) */
+    
+    padding: 16px 0; /* Some top and bottom padding */
+    transition: all 0.3s ease; /* Add transition for hover effects */
+    color: white; /* White text color */
+    font-size: 28px; /* Increased font size */
+  }
+  
+ .icon-bar a:hover {
+    background-color: #000; /* Add a hover color */
+  }
+  
+.active {
+    background-color: #4CAF50; /* Add an active/current color */
+  }
+     
+
+      
